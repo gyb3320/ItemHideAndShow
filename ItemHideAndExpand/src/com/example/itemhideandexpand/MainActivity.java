@@ -25,7 +25,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
 
 public class MainActivity extends Activity implements OnItemClickListener, OnItemLongClickListener{
-	private ListView noteBookslist;
+	private ListView noteBookslist; 
 	private NoteBookAdapter noteBookAdapter;
 	private List<String> fileTypeList;
 	private int currentPosition = -1;
